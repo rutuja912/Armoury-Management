@@ -16,7 +16,7 @@ public class javaconnect {
     public static Connection ConnecrDb(){
         try{
             Class.forName("org.sqlite.JDBC");
-            Connection conn = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\pranav\\Documents\\NetBeansProjects\\ArmoryDatabase1\\ArmoryDatabase.sqlite");
+            Connection conn = DriverManager.getConnection("jdbc:sqlite:C:.....");
             return conn;
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, e);
